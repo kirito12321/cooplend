@@ -1,0 +1,186 @@
+name: ascoop
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+
+  #cupertino checked
+  cupertino_icons: ^1.0.2
+
+  #firebase_core checked
+  firebase_core: ^2.4.0
+
+  #firebase_auth checked
+  firebase_auth: ^4.2.1
+
+  #flutter rating bar not used
+  flutter_rating_bar: ^4.0.1
+
+  #cloud firestore checked
+  cloud_firestore: ^4.2.0
+
+  #check this web site for configuring file picker in ios https://github.com/miguelpruivo/flutter_file_picker/wiki/Setup#ios
+  file_picker: ^5.2.4
+
+  #firebase_storage checked
+  firebase_storage: ^11.0.8
+
+  #no need more configuration
+  uuid: ^3.0.6
+
+  #firebase messaging checked
+  firebase_messaging: ^14.1.4
+
+  #flutter local notifications
+  #it supports android 4.1, ios 8.0, macOS 10.11 and linux
+  flutter_local_notifications: ^14.1.0
+
+  #badges checked
+  badges: ^3.1.1
+
+  #http checked
+  http: ^0.13.5
+
+  #url launcher checked
+  url_launcher: ^6.1.6
+
+  #syncfusion flutter calendar checked
+  syncfusion_flutter_calendar: ^21.2.6
+
+  #flutter slidable checked
+  flutter_slidable: ^3.0.0
+
+  #cached network image checked
+  cached_network_image: ^3.2.3
+
+  #modal bottom might not work in ios
+  modal_bottom_sheet: ^2.1.2
+
+  #image cropper checked
+  image_cropper: ^4.0.1
+
+  #image picker checked
+  image_picker: ^0.8.6
+  
+  #for rounding the numbers
+  intl: ^0.18.0
+
+  #for card slider
+  carousel_slider: ^4.2.1
+
+  #for page slider in page Loan Tenure
+  smooth_page_indicator: ^1.1.0
+
+  #for converting string to mathematical expressions
+  math_expressions: ^2.4.0
+
+  #webui package
+  universal_html: ^2.2.3
+  flutter_vector_icons: ^2.0.0
+  font_awesome_flutter: ^10.3.0
+  google_fonts: ^4.0.4
+  responsive_framework: ^0.2.0
+  # intl: ^0.17.0
+  percent_indicator: ^4.2.2
+  indexed_list_view: ^2.0.2
+  scrollable_positioned_list: ^0.3.5
+  # audioplayers: ^3.0.1
+  shared_preferences: ^2.1.0
+  image_picker_for_web: ^2.1.12
+  pdf: ^3.8.4
+  open_file: ^3.3.1
+  printing: ^5.11.0
+  #for counting how many days in a particular month
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.2.9
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  #  image_path: "assets/images/icon-128x128.png"
+  image_path_android: "assets/images/cooperative.png"
+  image_path_ios: "assets/images/cooperative.png"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+
+flutter_native_splash:
+    color: "#ffffff"
+    image: assets/images/cooperative.png
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/images/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+
+
+
+fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 600
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

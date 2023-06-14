@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "ascoop": "my-ascoop-project",
+    "default": "my-ascoop-project"
+  },
+  "targets": {},
+  "etags": {}
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "68596854899",
+    "project_id": "my-ascoop-project",
+    "storage_bucket": "my-ascoop-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68596854899:android:2a2450b33d5f8f4ffbba06",
+        "android_client_info": {
+          "package_name": "com.example.ascoop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68596854899-5de30i969uqnnkicjf040eg9d1q56djf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkOAyP49w4Wck8P2JjZeEFb37wzS2XvfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68596854899-5de30i969uqnnkicjf040eg9d1q56djf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
